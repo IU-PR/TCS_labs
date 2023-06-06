@@ -48,7 +48,7 @@ symbols are {{< katex >}}b{{< /katex >}}’s.
 2. it should delete one *a* from its memory for every {{< katex >}}b{{< /katex >}} it reads.
 
 A single move of a PDA will depend on:
-- the current state,
+- the current state
 - the next input (it could be no symbol: ε symbol), and
 - the symbol currently on top of the stack.
 PDA will be assumed to begin operation with an initial start
